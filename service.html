@@ -1,0 +1,72 @@
+<!-- Makeup Artist Services Page -->
+<div style="font-family: 'Playfair Display', serif; background: #fff; color: #333; margin: 0; padding: 0;">
+
+  <!-- Page Title -->
+  <section style="padding: 60px 20px; text-align: center; background: #fdf3f5;">
+    <h1 style="font-size: 2.8rem; color: #c71585; margin-bottom: 10px;">Services & Pricing</h1>
+    <p style="font-size: 1.2rem; color: #555;">Discover the perfect look for your special occasion</p>
+  </section>
+
+  <!-- Services List -->
+  <section style="padding: 40px 20px;">
+    
+    <!-- Bridal Makeup -->
+    <div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 60px;">
+      <div style="flex: 1; padding: 20px; min-width: 300px;">
+        <img src="https://i.postimg.cc/w78dnr6d/35a1eea9-0a41-40c5-a435-99c3df3d2ff3.jpg" style="width: 100%; border-radius: 10px;">
+      </div>
+      <div style="flex: 1; padding: 20px; min-width: 300px;">
+        <h2>Bridal Makeup</h2>
+        <p>Flawless traditional bridal look with premium long-lasting products. Includes pre-bridal skin prep.</p>
+        <p style="font-weight: bold; color: #c71585;">Price: ₹12,000</p>
+      </div>
+    </div>
+
+    <!-- Glam Makeup -->
+    <div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 60px; flex-direction: row-reverse;">
+      <div style="flex: 1; padding: 20px; min-width: 300px;">
+        <img src="https://i.postimg.cc/rDq2wt0n/515c4a76-c14f-4988-867e-fb77d34cea14.jpg" style="width: 100%; border-radius: 10px;">
+      </div>
+      <div style="flex: 1; padding: 20px; min-width: 300px;">
+        <h2>Glam Makeup</h2>
+        <p>Perfect for parties, events, or a night out — glowing skin, bold lips, and statement eyes.</p>
+        <p style="font-weight: bold; color: #c71585;">Price: ₹6,000</p>
+      </div>
+    </div>
+
+    <!-- Editorial Shoot -->
+    <div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 60px;">
+      <div style="flex: 1; padding: 20px; min-width: 300px;">
+        <img src="https://i.postimg.cc/vcrdyvBx/588a4260-a896-41bd-b4fa-18efe1a9b99c.jpg" style="width: 100%; border-radius: 10px;">
+      </div>
+      <div style="flex: 1; padding: 20px; min-width: 300px;">
+        <h2>Editorial Shoot</h2>
+        <p>High-fashion editorial makeup with bold, artistic designs for magazines, campaigns, or ads.</p>
+        <p style="font-weight: bold; color: #c71585;">Price: ₹9,000</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- WhatsApp Button (Centered Bottom) -->
+  <a href="https://wa.me/919667919955" style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background-color: #25d366; color: white; padding: 12px 20px; border-radius: 50px; font-size: 16px; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 999;">
+    💬 Chat on WhatsApp
+  </a>
+
+</div>
+
+<!-- Scroll Reveal JS -->
+<script>
+  document.querySelectorAll('h2, p').forEach(el => {
+    el.style.opacity = 0;
+    el.style.transform = 'translateY(20px)';
+    window.addEventListener('scroll', () => {
+      const top = el.getBoundingClientRect().top;
+      if (top < window.innerHeight - 100) {
+        el.style.transition = 'all 1s ease';
+        el.style.opacity = 1;
+        el.style.transform = 'translateY(0)';
+      }
+    });
+  });
+</script>
